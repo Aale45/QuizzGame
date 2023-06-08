@@ -17,8 +17,8 @@ for i in question_bank:
     b = quiz_brain.ask()
     if b == quiz_brain.ans:
         score += 1
-        print("Your answer is correct!")
-        print(f"Your current score is {score}/{num}")
+   
+        print(f"Your answer is wrong! \n Your current score is {score}/{num}")
     else:
         print("Your answer is wrong!")
         print(f"Your current score is {score}/{num}")
